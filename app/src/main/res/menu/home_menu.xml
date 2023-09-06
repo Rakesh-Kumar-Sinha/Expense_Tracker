@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+    <group>
+        <item
+            android:id="@+id/SetGoalMoney"
+            android:title="Set Goal Money" />
+
+        <item
+            android:id="@+id/seeProfile"
+            android:title="View Profile" />
+       
+        <item
+            android:id="@+id/LogOut"
+            android:title="Log out" />
+
+    </group>
+
+</menu>

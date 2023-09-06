@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgroud"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center"
+        android:text="Update Expense"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16ssp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/updateEdtAmount"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_marginLeft="@dimen/_20ssp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_20ssp"
+        android:background="@drawable/edt_bg"
+        android:hint="Enter Amount"
+        android:inputType="number"
+        android:padding="@dimen/_8sdp"
+
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+
+        android:layout_marginRight="@dimen/_20sdp"
+        android:background="@drawable/edt_bg">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/updateEdtDate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edt_bg"
+            android:hint="Pick Date" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="@dimen/_45sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+
+
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_weight="1"
+
+        android:background="@drawable/edt_bg">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/updateEdtTime"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edt_bg"
+            android:hint="Pick time" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <EditText
+        android:id="@+id/updateEdtDesc"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_marginLeft="@dimen/_20ssp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_20ssp"
+        android:background="@drawable/edt_bg"
+        android:hint="Enter Description"
+        android:padding="@dimen/_8sdp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="14dp"
+        android:text="Select Category"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <RadioGroup
+        android:id="@+id/radioGroupUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:background="@android:color/transparent">
+
+        <RadioButton
+            android:id="@+id/radioFoodUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp"
+
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioTransportUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transport"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioEntertainmentUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entertainment"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioOtherUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold" />
+
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnUpdateExp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_card"
+            android:text="Update Expense"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

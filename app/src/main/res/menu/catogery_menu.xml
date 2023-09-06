@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+
+        <item
+            android:id="@+id/menuAll"
+            android:title="All" />
+        <item android:id="@+id/menuAllTime"
+            android:title="All time "/>
+
+        <item
+            android:id="@+id/menuFood"
+            android:title="Food" />
+        <item
+            android:id="@+id/menuTransport"
+            android:title="Transport" />
+        <item
+            android:id="@+id/menuEntertainment"
+            android:title="Entertainment" />
+        <item
+            android:id="@+id/menuOther"
+            android:title="Other" />
+        <item
+            android:id="@+id/menuExport"
+            android:title="Export CSV" />
+
+
+
+    </group>
+
+</menu>

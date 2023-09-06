@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_300sdp"
+    android:layout_height="@dimen/_200sdp"
+    android:orientation="vertical"
+    android:background="@drawable/backgroud"
+    android:gravity="center"
+    android:layout_gravity="center"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Your Monthly Goal"
+        android:textSize="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_50sdp"
+    android:id="@+id/edtGoalAmount"
+    android:layout_marginLeft="@dimen/_15sdp"
+    android:hint="Enter Goal Amount"
+    android:padding="@dimen/_8sdp"
+    android:layout_marginRight="@dimen/_15sdp"
+    android:background="@drawable/edt_bg"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:id="@+id/dialogCancelBtn"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:text="Cancel"
+            android:background="@drawable/bg_card"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:text="Set Goal"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:background="@drawable/bg_card"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:id="@+id/dialogSetGoalBtn"/>
+
+    </LinearLayout>
+
+    
+
+
+
+
+
+
+</LinearLayout>

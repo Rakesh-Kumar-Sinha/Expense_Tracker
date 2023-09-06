@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="bgcolor">#D3F8E8</color>
+    <color name="fontcolor">#011627</color>
+    <color name="acent_1">#7209b7</color>
+    <color name="acent_2">#2ec4b6</color>
+    <color name="errorC">#700000</color>
+
+    <color name="bluedark">#125488</color>
+    <color name="bluelight">#2a93d5</color>
+    <color name="yellow">#AF8404</color>
+
+
+
+
+
+
+
+
+</resources>

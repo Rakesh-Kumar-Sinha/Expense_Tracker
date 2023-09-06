@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "492435256604",
+    "project_id": "expense-tracker-fb6ef",
+    "storage_bucket": "expense-tracker-fb6ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492435256604:android:90b2f9e449b78acd6ab6d9",
+        "android_client_info": {
+          "package_name": "com.warlogqgi.expensetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "492435256604-qcf139jqpr93a0kb4l90id74gt08ro40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfhzGI-zUFkiSLqCRUWd0F2k-GOjvLiKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "492435256604-qcf139jqpr93a0kb4l90id74gt08ro40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

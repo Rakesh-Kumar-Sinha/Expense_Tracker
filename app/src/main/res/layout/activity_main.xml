@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroud"
+    android:gravity="center"
+    tools:context=".layouts.layouts.MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_56sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter Your Email "
+            android:padding="8dp"
+            android:id="@+id/EdtSignInEmail"
+            android:background="@color/white"
+            android:inputType="textEmailAddress"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_56sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        app:passwordToggleEnabled="true"
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter Your Password "
+            android:padding="8dp"
+            android:id="@+id/EdtSignInPass"
+            android:background="@color/white"
+            android:inputType="textPassword"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:id="@+id/btnSignIn"
+        android:text="SIGN In"
+        android:background="@drawable/bg_card"
+        android:elevation="@dimen/_12sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Forgot Your Password ? \n          Click to reset"
+        android:textSize="@dimen/_13ssp"
+        android:id="@+id/resetPass"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:textColor="#7E0404"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't Have account yet?"
+        android:layout_marginTop="35dp"
+         android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/fontcolor"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:id="@+id/tvSignUp"
+        android:layout_marginTop="20dp"
+       />
+
+
+
+
+</LinearLayout>
