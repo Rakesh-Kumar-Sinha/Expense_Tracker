@@ -20,17 +20,20 @@
         android:theme="@style/Theme.ExpenseTracker"
         tools:targetApi="31">
         <activity
+            android:name=".DevDetails"
+            android:exported="false" />
+        <activity
             android:name=".layouts.EditProfile"
             android:exported="false" />
         <activity
             android:name=".layouts.layouts.CompleteProfile"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".layouts.layouts.AddNumber"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".layouts.layouts.ProfileActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".layouts.layouts.ResetPassActivity"
             android:exported="false" />

@@ -47,6 +47,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
+import com.warlogqgi.expensetracker.DevelopersDetails
 
 import com.warlogqgi.expensetracker.R
 import com.warlogqgi.expensetracker.layouts.model.DataModel
@@ -175,6 +176,9 @@ class Home_Activity : AppCompatActivity() {
                     R.id.seeProfile ->{
                         startActivity(Intent(this,ProfileActivity::class.java))
 
+                    }
+                    R.id.About ->{
+                        startActivity(Intent(this, DevelopersDetails::class.java))
                     }
 
 

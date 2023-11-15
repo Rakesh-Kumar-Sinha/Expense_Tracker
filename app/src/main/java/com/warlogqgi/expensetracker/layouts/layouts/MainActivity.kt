@@ -21,8 +21,6 @@ class MainActivity : AppCompatActivity() {
     lateinit var btnReset: TextView
     var firebaseAuth = FirebaseAuth.getInstance()
     var firebaseUser = firebaseAuth.currentUser
-
-
     lateinit var signInBtn: Button
 
     @SuppressLint("MissingInflatedId")
