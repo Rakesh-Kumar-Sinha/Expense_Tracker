@@ -49,6 +49,13 @@
                     android:src="@drawable/baseline_supervised_user_circle_24"
                     />
             </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="#125488"
+                android:layout_below="@+id/linearLayout"
+                android:layout_marginTop="@dimen/_4sdp"
+                />
 
 
             <LinearLayout
